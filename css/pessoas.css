@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Pattaya', sans-serif;
+    transition: 408ms;
+   
+}
+@media (max-width: 767px) {
+  .imagem {
+    margin-left: 10px; /* Remova a margem inferior em telas menores */
+  }}
+
+
+.fundo{
+    background-color: #111010;
+}
+
+h1{
+    text-align: center; 
+    color: aliceblue!important;                       
+}
+
+
+
+  /* logo*/   
+  #salve{
+    font-size: 2.50rem ;
+    text-shadow: -5px 0px 0px #2B4EAA;                 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+  
+  }
+  /* logo*/   
+
+  .navbar {
+    background-color:#202020 ;
+    display: flex;
+    position: fixed;
+}
+
+#sobre:hover{
+  transform: scale(1.1);
+}
+#projetos:hover{
+  transform: scale(1.1);
+}
+#pessoas:hover{
+  transform: scale(1.1);
+}
+#eventos:hover{
+  transform: scale(1.1);
+}
+ /* Links navbar*/
+#sobre a{ 
+    color: rgb(0, 170, 28);
+    font-size: 200%;
+    margin-right: 18px;
+
+}
+#projetos a{ 
+    color: rgb(182, 179, 6);
+    font-size: 200%;
+    margin-right: 14px;
+}                                    
+#pessoas a{ 
+    color: rgb(0, 88, 204);
+    font-size: 200%;
+    margin-right: 52px;
+}
+#eventos a{ 
+    color:rgb(253, 126, 64);
+    font-size: 200%;
+    margin-left: -41%;
+   
+}
+@media (max-width: 991px){
+
+  #eventos a{ 
+    color:rgb(253, 126, 64);
+    font-size: 200%;
+    margin-left: 0%;  
+}
+}
+ /* Links navbar*/
+ 
+
+ /* Botão de login*/
+.btn{
+    background-color: #9CDDE1;               
+    border-radius: 9px;
+}
+.btn:focus, .btn:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+
+/*conteudo*/
+.container{
+    max-width: 100%;
+    margin-left: auto; 
+    margin-right: 450px;
+   
+ 
+
+}
+.imagem-container {
+  position: relative;
+  margin-bottom: 70px; /* Espaço vertical entre as imagens */
+ cursor: pointer;
+ 
+}
+.imagem-container:hover{
+  transform: scale(1.05);
+}
+
+.texto-sobre-imagem {
+  position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 11px;
+  top: 80%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  
+}
+/*imagem da seção sobre*/
+
+.pessoas{
+  font-family: pattaya;
+  font-size: 69px;
+  margin-bottom:  41px; 
+}
+
+.imagem{
+    background-color: antiquewhite;
+    width: 290px;                     
+}      
+.imagem img{
+    width: 100%;
+    height: 500px;
+     
+      transform: scale(1.05);
+    
+}
+
+ /*Rodapé*/
+ footer{
+  background-color:#202020  ;
+  color: #d7d7d7;
+}
+.textorodape{
+  color: #ffffffb4;
+  font-size: 97%;
+  font-family: 'Times New Roman', Times, serif;
+}
+  .mb-3{
+    color: white;
+  }
+  .mb-1{
+    color: white;
+  }
+  
+  #zap{
+    margin: 10px;
+  }
+  
+  #insta{
+    margin: 10px;
+  }
+  
+  #email{
+    margin: 10px;
+  }
+  #barra{
+    width: 100%;
+  }
+/*Rodapé */
+
+#imgpessoas{
+ 
+  height: 509px;
+  width: 566px;
+
+}
+#modaltext{
+  font-family: 'Times New Roman', Times, serif;
+}
+#fundofoter{
+  background-color: #111010 !important;
+  color: #d7d7d7 !important;
+}
+#zap1{
+  color: rgba(15, 236, 100, 0.706)
+}
+#ins1{
+  color: rgba(236, 15, 144, 0.706)
+}
+#mail1{
+  color: rgba(255, 28, 28, 0.706)
+}

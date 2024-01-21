@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Pattaya', sans-serif;
+    transition: 408ms;
+}
+  
+
+
+
+
+
+
+
+
+
+  #texto {
+      font-size: 235%; 
+      max-width: 100%; 
+      white-space: nowrap; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      word-wrap: break-word; 
+      text-align: center;
+   
+  }
+
+
+.fundo{
+    background-color: #111010;
+}
+
+p{
+  font-size: 20px;
+}
+
+  /* logo*/   
+  #salve{
+    font-size: 2.50rem ;
+    text-shadow: -5px 0px 0px #2B4EAA;                 
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    text-transform: uppercase;
+  
+  }
+  /* logo*/   
+
+  .navbar {
+    background-color:#202020 ;
+    display: flex;
+    position: fixed;
+}
+
+#sobre:hover{
+  transform: scale(1.1);
+}
+#projetos:hover{
+  transform: scale(1.1);
+}
+#pessoas:hover{
+  transform: scale(1.1);
+}
+#eventos:hover{
+  transform: scale(1.1);
+}
+ /* Links navbar*/
+#sobre a{ 
+    color: rgb(0, 170, 28);
+    font-size: 200%;
+    margin-right: 18px;
+
+}
+#projetos a{ 
+    color: rgb(182, 179, 6);
+    font-size: 200%;
+    margin-right: 14px;
+}                                    
+#pessoas a{ 
+    color: rgb(0, 88, 204);
+    font-size: 200%;
+    margin-right: 52px;
+}
+#eventos a{ 
+    color:rgb(253, 126, 64);
+    font-size: 200%;
+    margin-left: -41%;
+   
+}
+@media (max-width: 991px){
+
+  #eventos a{ 
+    color:rgb(253, 126, 64);
+    font-size: 200%;
+    margin-left: 0%;  
+}
+}
+
+
+ /* Botão de login*/
+.btn{
+    background-color: #9CDDE1;               
+    border-radius: 9px;
+}
+.btn:focus, .btn:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+ /* Botão de login*/
+
+
+/* imagem do card transparente*/ 
+.frase img{
+    width: 100%;                            
+    height: 620px;
+    filter: brightness(0.5)
+}
+ /* imagem do card transparente*/ 
+
+
+ /* card, texto transparente*/ 
+ .frase .card{
+  background-color: #141414;
+      color: rgb(255, 255, 255);
+      opacity: 83%;
+      width: 69%;
+      height: 329px;
+      top: -487px;
+      display: flex;
+      transition: 408ms;
+      cursor: pointer;
+  
+  }
+
+
+#borda{
+  border-radius: 10px; 
+  font-size: 100%;
+
+ }
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+/* card, texto transparente*/ 
+
+/*linha*/
+hr{
+    width: 85%; 
+}
+/*linha*/
+
+
+
+/*titulo da seção sobre*/
+.about h1{
+    text-align: center;
+    margin: 30px;                          
+    color: white;
+}
+.about{
+  align-items: center;
+}
+/*titulo da seção sobre*/
+
+
+
+/*conteudo*/
+.container{
+    max-width: 100%; 
+}
+/*conteudo*/
+
+
+/*imagem da seção sobre*/
+.imagem{
+    background-color: #111010;
+    /* width: 367px;
+    height: 500px;  */                      
+    margin-bottom: 5pc;
+    /*margin-right: 15%;*/
+    display:flex;
+    justify-content: center;
+    max-width: 100%; /* Ensure the image is responsive */
+        height: auto;
+        text-align: right;
+}                       
+                   
+
+/*imagem da seção sobre*/
+
+
+
+/*resumo da seção sobre*/
+.textin{
+    background-color: #111010;
+    width: 350px;
+    height: 500px;
+}                                              
+.textin p{
+  font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+    color: #d7d7d7;
+    font-size: 18px;
+    text-align:left;
+    margin-top: 0pc;
+    margin-left: 0%;
+    display: flex;
+
+}
+#foto1{
+  margin-left: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .about .container{
+    max-width: 70%!important;
+  }
+}
+/*resumo da seção sobre*/
+
+
+/*titulo da seção projetos*/
+.projetos h1{
+    text-align: center;
+    margin: 30px;                         
+    color: white;
+}
+/*titulo da seção projetos*/
+
+
+/*carousel redondo*/
+#imgcarrosel:hover{
+  transform: scale(1.1);
+}
+
+
+.wrapper{
+    display: flex;
+    max-width: 1200px;
+    position: relative;
+  }
+  .wrapper i{
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #343F4F;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+  }
+  .wrapper i:active{
+    transform: translateY(-50%) scale(0.9);
+  }
+  .wrapper i:hover{
+    background: #f2f2f2;
+  }
+  .wrapper i:first-child{
+    left: -22px;
+    display: none;
+  }
+  .wrapper i:last-child{
+    right: -22px;
+  }
+  .wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  .carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+  .carousel.dragging img{
+    pointer-events: none;
+  }
+  .carousel img{
+    height: 340px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: calc(100% / 3);
+    border-radius: 50%;
+  }
+  .carousel img:first-child{
+    margin-left: 0px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .carousel img{
+      width: calc(100% / 2);
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .carousel img{
+      width: 100%;
+    }
+  }
+/*carousel redondo*/
+
+ 
+/*titulo da seção pessoas importantes*/
+  .pessoas h1{
+    text-align: center;
+    margin: 30px;                      
+    color: white;
+}
+/*titulo da seção pessoas importantes*/
+
+
+
+/*cards*/
+  .card {
+    background: #e8e8e8;
+    padding: .4em;
+    border-radius: 6px;
+    margin: 10px;
+    height: 30pc;
+  }
+  
+  .card-image {
+    background-color:#ffffff;
+    width: 100%;
+    height: 15pc;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+  }
+  
+  .author {
+    color: rgb(252, 252, 252);
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  
+  .name {
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
+  }
+
+/*cards*/
+.texto-sobre-imagem {
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  top: 80%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+}
+
+/* .imagem{
+    background-color: antiquewhite;
+    width: 290px;                     
+}   */ 
+.imagem img{
+    width: 100%;
+    height: 500px;
+      cursor: pointer;
+      border: 17px solid rgb(245, 245, 245);
+      border-radius: 0px;
+}
+.imagem:hover{
+  transform: scale(1.05);
+}
+.imagem-container {
+  position: relative;
+  margin-bottom: 70px; /* Espaço vertical entre as imagens */
+ 
+}
+
+#pessoa{
+  cursor: pointer;
+}
+.imagem-container:hover {
+  transform: scale(1.05);
+}
+/*cards*/
+
+ /*Rodapé*/
+footer{
+    background-color:#202020  ;
+    color: #d7d7d7;
+  }
+  .textorodape{
+    color: #ffffffb4;
+    font-size: 97%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .mb-3{
+    color: white;
+  }
+  .mb-1{
+    color: white;
+  }
+  
+
+  #zap{
+    margin: 10px;
+  }
+  
+  #insta{
+    margin: 11px;
+  }
+  
+  #email{
+    margin: 10px;
+  }
+
+   /*Rodapé*/
+   #imgkarate1{
+    height: 390px;
+    width: 500px;
+  }
+  
+  #imgjiu1{
+    height: 390px;
+    width: 500px;
+  }
+  #imgpastoral1{
+    height: 390px;
+    width: 500px;
+  }
+  #afi1{
+    height: 390px;
+    width: 500px;
+  }
+#zap1{
+  color: rgba(15, 236, 100, 0.706)
+}
+#ins1{
+  color: rgba(236, 15, 144, 0.706)
+}
+#mail1{
+  color: rgba(255, 28, 28, 0.706)
+}

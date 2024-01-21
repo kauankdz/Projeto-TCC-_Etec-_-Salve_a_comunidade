@@ -1,0 +1,40 @@
+.fundo{
+    background-color: #111010;
+}
+  /* logo*/   
+  #salve{
+    font-size: 5.5rem;
+  text-shadow: -8px 0px 0px #2B4EAA;                 
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-family: 'Pattaya', sans-serif;
+  }
+  /* logo*/   
+
+  .navbar {
+    background-color:#202020 ;
+    display: flex;
+    position: fixed;
+}
+
+h1{
+    color: white;
+}
+.deslog{
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  background-color: #2B4EAA; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: 1px solid #2B4EAA; /* Borda do botão */
+  border-radius: 5px; /* Borda arredondada */
+  transition: background-color 0.3s ease;
+}
+
+/* Mudando a cor de fundo quando hover */
+.deslog:hover {
+  background-color: #2B4EAA /* Nova cor de fundo quando hover */
+}

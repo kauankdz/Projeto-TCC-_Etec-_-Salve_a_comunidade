@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Pattaya';
+    transition: 408ms;
+}
+
+
+.fundo{
+    background-color: #111010;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue!important;   
+    font-size: 5pc !important;
+}
+
+h5{
+  font-size: 3pc;
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+  font-family: 'Times New Roman', Times, serif!important;
+}
+
+
+p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+    /* logo*/   
+  #salve{
+    font-size: 2.50rem ;
+    text-shadow: -5px 0px 0px #2B4EAA;                 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+  
+  }
+    /* logo*/   
+  
+    .navbar {
+      background-color:#202020 ;
+      display: flex;
+      position: fixed;
+  }
+  
+  #sobre:hover{
+    transform: scale(1.1);
+  }
+  #projetos:hover{
+    transform: scale(1.1);
+  }
+  #pessoas:hover{
+    transform: scale(1.1);
+  }
+  #eventos:hover{
+    transform: scale(1.1);
+  }
+   /* Links navbar*/
+  #sobre a{ 
+      color: rgb(0, 170, 28);
+      font-size: 200%;
+      margin-right: 18px;
+  
+  }
+  #projetos a{ 
+      color: rgb(182, 179, 6);
+      font-size: 200%;
+      margin-right: 14px;
+  }                                    
+  #pessoas a{ 
+      color: rgb(0, 88, 204);
+      font-size: 200%;
+      margin-right: 52px;
+  }
+  #eventos a{ 
+      color:rgb(253, 126, 64);
+      font-size: 200%;
+      margin-left: -41%;
+     
+  }
+  @media (max-width: 991px){
+  
+    #eventos a{ 
+      color:rgb(253, 126, 64);
+      font-size: 200%;
+      margin-left: 0%;  
+  }
+  }
+   /* Links navbar*/
+  
+ 
+
+ /* Botão de login*/
+.btn{
+    background-color: #9CDDE1;               
+    border-radius: 9px;
+}
+.btn:focus, .btn:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+/*modals*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*cards*/
+
+.card{
+  margin-bottom: 3pc;
+}
+
+.card1{
+    width: 100%;
+}
+
+.card2{
+    width: 100%;
+}
+
+.card3{
+    width: 100%;
+}
+
+.card4{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.card-img{
+    height: 20pc;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+/*tamanho carousel*/
+.carousel-item{
+    height: 25pc;
+}
+
+/*hover das imagem*/
+
+.link-with-image:hover img {
+    /* Adicione os estilos desejados para o hover aqui */
+    opacity: 0.5; /* Exemplo: diminuir a opacidade da imagem */
+}
+/*Rodapé*/
+footer{
+  background-color: #202020 ;
+  color: #d7d7d7;
+}
+.textorodape{
+  color: #ffffffb4;
+  font-size: 97%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mb-3{
+  color: white;
+}
+.mb-1{
+  color: white;
+}
+
+#zap{
+  margin: 10px;
+}
+
+#insta{
+  margin: 11px;
+}
+
+#email{
+  margin: 10px;
+}
+#barra{
+  width: 100%;
+}
+#titlesobre{
+  margin-right: 58% !important;
+}
+ /*Rodapé*/
+ #titlesobre{
+  margin-right: 58% !important;
+}
+ /*Rodapé*/
+ #zap1{
+  color: rgba(15, 236, 100, 0.706)
+}
+#ins1{
+  color: rgba(236, 15, 144, 0.706)
+}
+#mail1{
+  color: rgba(255, 28, 28, 0.706)
+}
